@@ -35,42 +35,7 @@ The project uses `notebook/data/raw.csv`, containing **2,300 rows and 10 columns
 
 The dataset contains nine numerical features and ten fault categories, including normal bearing operation, ball faults, inner-race faults, and outer-race faults.
 
-## Project Structure
 
-```text
-Bearing_Fault_Diagnosis/
-├── .github/
-│   └── workflows/
-├── .dvc/
-├── artifacts/
-│   ├── model.pkl
-│   ├── preprocessor.pkl
-│   ├── label_encoder.pkl
-│   └── model_scores.png
-├── catboost_info/
-├── notebook/
-│   └── data/
-│       └── raw.csv
-├── src/
-│   └── Bearing_Fault_Diagnosis/
-│       ├── components/
-│       │   ├── data_ingestion.py
-│       │   ├── data_transformation.py
-│       │   ├── model_trainer.py
-│       │   └── model_evaluation.py
-│       ├── pipelines/
-│       │   ├── prediction_pipeline.py
-│       │   └── training_pipeline.py
-│       ├── exception.py
-│       ├── logger.py
-│       └── utils.py
-├── app.py
-├── main.py
-├── requirements.txt
-├── setup.py
-├── Dockerfile
-└── README.md
-```
 
 ## Methodology
 
